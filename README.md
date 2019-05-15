@@ -50,3 +50,7 @@ Starter files for the First School of AI Competition. The objective is to create
 Navigate to the directory and open Connect4.ipynb
 
     jupyter notebook Connect4.ipynb
+
+### Note
+1. test_agent.py is provided both as an opponent to test your agent against and as a starting point for implementing a minimax agent with alpha beta pruning and iterative deepening. 
+2. If you wish to build an agent based on test_agent.py. Create a new copy of test_agent.py and heuristic.py modify heuristic.py to customize the behaviour of your agent. 
