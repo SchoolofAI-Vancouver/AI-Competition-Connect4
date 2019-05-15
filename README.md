@@ -25,9 +25,9 @@ Starter files for the First School of AI Competition. The objective is to create
     conda create --name tournament python=3.6
     source activate tournament
     conda install numpy
-    conda install tensorflow-gpu
+    conda install cudnn
     pip install tensorflow-gpu==2.0.0alpha0
-    conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
+    conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
     conda install matplotlib
     conda install jupyter notebook
     ```
@@ -37,9 +37,9 @@ Starter files for the First School of AI Competition. The objective is to create
     conda create --name tournament python=3.6 
     activate tournament
     conda install numpy
-    conda install tensorflow-gpu
+    conda install cudnn
     pip install tensorflow-gpu==2.0.0alpha0
-    conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
+    conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
     conda install matplotlib
     conda install jupyter notebook
     ```
